@@ -54,12 +54,12 @@
 # lst2.reverse()
 # print(lst2)
 
-# tp = () #empty touple created or tp = touple()
+# tp = () #empty tuple created or tp = tuple()
 # tp = (1,2,3,4) #same as list but not dynamic as list, it is unchangeable once it is created
 # print(tp)
 # tp += (8,9) #adding some extra elements
 # print(tp[3]) 
-# #tp[3] = 10, not possible index 3 in unchangeabel once it is created
+# #tp[3] = 10, not possible index 3 in unchangeable once it is created
 # for i in range(len(tp)):
 #     print("Index", i , ":", tp[i])
 
@@ -96,6 +96,11 @@
 #or
 # lst = list(map(int, input().split()))
 # print(lst)
+
+# N = int(input("Enter the size of the list: "))   ## N num of list input
+## Taking N numbers as input and creating the list using list comprehension
+# numbers = [int(input(f"Enter number {i+1}: ")) for i in range(N)]
+# print("The list is:", numbers)
 
 # llst = [10,20,30,40],[50,60,70,80],[11,22,33,44]
 # print(llst)
